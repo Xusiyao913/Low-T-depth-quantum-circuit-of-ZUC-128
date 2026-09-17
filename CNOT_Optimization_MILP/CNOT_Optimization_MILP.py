@@ -100,11 +100,11 @@ def read_linear_matrix_from_txt2(file_path, P):
         matrix.append(row)
     return names, matrix
 """output file_path"""
-file_path1= "D:\SAT_Based_Search\data\output.txt"
+file_path1= "D:\CNOT_Optimization_MILP\data\output.txt"
 X1 = [9, 15, 0, 7, 13, 2, 12, 14,1,8,10,11]+[i for i in range(44,58)]+[24,26,27,31,38,40,41,42]
 name1, M1= read_linear_matrix_from_txt2(file_path1,X1)
 """input file_path"""
-file_path2= "D:\SAT_Based_Search\data\input.txt"
+file_path2= "D:\CNOT_Optimization_MILP\data\input.txt"
 name2, M2= read_linear_matrix_from_txt2(file_path2,X1)
 new_M1=M1
 
